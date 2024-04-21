@@ -1,0 +1,86 @@
+@media (max-width:768px) {
+  .logo {
+    height: 60px;
+    object-fit: cover;
+    margin-top: -10px
+  }
+
+  .h400 img {
+    height: 34vh;
+    object-fit: cover;
+    object-position: top
+  }
+
+  .sticky.navbar-area .navbar {
+    height: 55px !important
+  }
+
+  .trans p {
+    font-size: 13px !important;
+    font-weight: 600
+  }
+
+  .h150 img {
+    height: 90px;
+    object-fit: cover
+  }
+
+  h3 {
+    font-size: 13px;
+    line-height: 1;
+    color: #000
+  }
+
+  .player-height {
+    height: 230px
+  }
+
+  .see {
+    right: 22px
+  }
+
+  .navbar-area.navbar-nine .navbar {
+    position: relative;
+    padding: 0;
+    height: 80px !important
+  }
+
+  .owl-nav {
+    position: absolute;
+    top: 90px;
+    right: 0
+  }
+
+  .sticky .logo {
+    height: 45px;
+    margin-top: 0
+  }
+
+  .owl-carousel .owl-item img {
+    height: 115px
+  }
+
+  .h300 img {
+    height: 200px !important;
+    object-fit: cover
+  }
+
+  .scroll .text-dark {
+    font-family: sans-serif;
+    font-size: 14px
+  }
+
+  .h150 .scroll img {
+    height: 70px;
+    object-fit: cover
+  }
+
+  #twitter-widget-0 {
+    min-height: 250px
+  }
+}
+
+.h150 .scroll img {
+  height: 90px;
+  object-fit: cover
+}

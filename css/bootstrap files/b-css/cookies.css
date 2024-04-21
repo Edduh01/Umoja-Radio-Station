@@ -1,0 +1,51 @@
+<style>.js-cookie-consent {
+  background: #000;
+  color: #fff;
+  z-index: 9999
+}
+
+.cookie-consent__message {
+  color: #fff
+}
+
+.js-cookie-consent {
+  background: #000;
+  text-align: center !important;
+  position: fixed;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  width: 100%
+}
+
+.js-cookie-consent-agree {
+  color: #fff !important;
+  background: #ee2e24;
+  border-radius: .25rem
+}
+
+.text-standard {
+  color: #ed1a3b !important
+}
+
+.text-standard:hover {
+  color: #686465 !important
+}
+
+.boda-right {
+  border-right: 1px solid #6e6d6d !important
+}
+
+.boda-bottom {
+  border-bottom: 1px solid #6e6d6d !important;
+  padding-bottom: 15px;
+  padding-top: 0
+}
+
+.bg-right-grey .card-body {
+  flex: 1 1 auto;
+  padding: 1rem .5rem 0;
+  background: #fff;
+  color: #fff
+}

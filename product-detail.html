@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--we have added this view port tag and set initial scale to 1 so that our side shoudl be adjustable according to different devices especially for mobile devices-->
+    <title>Umoja Radio - All Products</title>
+    <link rel="stylesheet" href="store-assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--poppins font from google fonts website then select popping select some types and then embed-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--link to connect to font awesome 4 to use different icons, just type font awesome 4 cdn and click on first link and copy the url and past it here with rel="stylesheet"-->
+
+    <!-- EXTRAS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="developer" content="Edwine Arita" />
+    <meta name="developer:email" content="edwinearita07@gmail.com" />
+    <meta name="designer" content="Edwine Arita" />
+    <meta name="designer:email" content="edwinearita07@gmail.com" />
+    <link rel="icon" href="./images/fav.png" type="logo/png" />
+
+    <link
+      rel="stylesheet"
+      href="./css/bootstrap files/b-css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./css/bootstrap files/b-css/owl.carousel.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./css/bootstrap files/b-css/theme-default-min.css"
+    />
+
+    <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.css" />
+    <!-- <link rel="stylesheet" href="./style - store.css" /> -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="store-assets/css/style.css" />
+    <!-- END OF EXTRAS -->
+  </head>
+
+  <body>
+    <!------------Single Products Detail-------------->
+    <!--what we have done is that we placed 4 latest product after single prodcut
+    details and here we are creating section of single product consisting of name of product, image, price, sizes
+    and quantity-->
+
+    <div class="small-container single-product">
+      <div class="row">
+        <!--we have created 2 columns, one for the image and other for the text
+            related to an image-->
+
+        <div class="col-2">
+          <img
+            src="/images/products/umojacup-1.jpg"
+            width="100%"
+            id="product-img"
+          /><!--id in bigger image so we can replace with its variants, so when we click on its different angle, it will show in large picture using JS-->
+
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img
+                src="/images/products/umojacup-2.jpg"
+                width="100%"
+                class="small-img"
+              /><!--using class in all 4 small pictures so we can use them in JS and when we click on it, it show in larger picture-->
+            </div>
+
+            <div class="small-img-col">
+              <img
+                src="images/products/umojacup-3.jpg"
+                width="100%"
+                class="small-img"
+              />
+            </div>
+
+            <div class="small-img-col">
+              <img
+                src="images/products/umojacup-4.jpg"
+                width="100%"
+                class="small-img"
+              />
+            </div>
+
+            <div class="small-img-col">
+              <img
+                src="images/products/umojacup-5.jpg"
+                width="100%"
+                class="small-img"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!--column related to the text of single product-->
+        <div class="col-2">
+          <p>Umoja/Cups</p>
+          <h1>Umoja Radio Printed Cup</h1>
+          <h4>$10.00</h4>
+
+          <!--sizes selection-->
+          <select>
+            <option>Select Size</option>
+            <option>XXL</option>
+            <option>XL</option>
+            <option>Large</option>
+            <option>Medium</option>
+            <option>Small</option>
+          </select>
+
+          <!--no of products-->
+          <input type="number" value="1" />
+          <a href="http://wa.me/254712534068" class="store-btn">Add To Cart</a
+          ><!--add to cart button-->
+          <h3>
+            Product Details <i class="fa fa-indent" aria-hidden="true"></i>
+          </h3>
+          <br />
+          <p>Give Your kitchen a style.</p>
+        </div>
+      </div>
+    </div>
+
+    <!----------title-------------->
+    <div class="small container">
+      <div class="row row-2">
+        <h2>Related Products</h2>
+        <a href="umojastore.html" class="store-btn"> View More </a>
+      </div>
+    </div>
+
+    <!----------Products------------>
+    <div class="small container">
+      <!--we have create an another row to add title and give user dropdown list with four options so they can select what they want-->
+
+      <!--This is the same class which already have index.html consisting of 4 columns-->
+
+      <!--above are the products of featured prodcuts row, as the page is for all products, so I have added latest products row too here  -->
+      <div class="row">
+        <div class="col-4">
+          <img src="images/products/product3.jpeg" /><!--product img-->
+          <h4>Umoja Printed Suit</h4>
+          <!--product title-->
+          <div class="rating">
+            <!--add stars for rating of product from font awesome 4-->
+            <i class="fa fa-star" aria-hidden="true"></i
+            ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$90.00</p>
+          <!--product price-->
+        </div>
+
+        <div class="col-4">
+          <img src="images/products/product2.jpeg" /><!--product img-->
+          <h4>Umoja Printed Suit</h4>
+          <!--product title-->
+          <div class="rating">
+            <!--add stars for rating of product from font awesome 4-->
+            <i class="fa fa-star" aria-hidden="true"></i
+            ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$200.00</p>
+          <!--product price-->
+        </div>
+
+        <div class="col-4">
+          <img src="images/products/product5.jpeg" /><!--product img-->
+          <h4>Umoja Printed Suit</h4>
+          <!--product title-->
+          <div class="rating">
+            <!--add stars for rating of product from font awesome 4-->
+            <i class="fa fa-star" aria-hidden="true"></i
+            ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$200.00</p>
+          <!--product price-->
+        </div>
+
+        <div class="col-4">
+          <img src="store-assets/images/product-12.jpg" /><!--product img-->
+          <h4>Umoja Printed Out-Fit</h4>
+          <!--product title-->
+          <div class="rating">
+            <!--add stars for rating of product from font awesome 4-->
+            <i class="fa fa-star" aria-hidden="true"></i
+            ><!--add 4 black start and one transparent star to show 4 out of 5 rating-->
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+          <p>$90.00</p>
+          <!--product price-->
+        </div>
+      </div>
+      <!--add page buttons in small container section-->
+    </div>
+
+    <!-- =====================FOOTER======================== -->
+    <script type="900c16ca99e5c097af465c1a-text/javascript">
+      window.laravelCookieConsent=(function(){const COOKIE_VALUE=1;const COOKIE_DOMAIN='';function consentWithCookies(){setCookie('laravel_cookie_consent',COOKIE_VALUE,7300);hideCookieDialog();}function cookieExists(name){return(document.cookie.split('; ').indexOf(name+'='+COOKIE_VALUE)!==-1);}function hideCookieDialog(){const dialogs=document.getElementsByClassName('js-cookie-consent');for(let i=0;i<dialogs.length;++i){dialogs[i].style.display='none';}}function setCookie(name,value,expirationInDays){const date=new Date();date.setTime(date.getTime()+(expirationInDays*24*60*60*1000));document.cookie=name+'='+value+';expires='+date.toUTCString()+';domain='+COOKIE_DOMAIN+';path=/'+';samesite=lax';}if(cookieExists('laravel_cookie_consent')){hideCookieDialog();}const buttons=document.getElementsByClassName('js-cookie-consent-agree');for(let i=0;i<buttons.length;++i){buttons[i].addEventListener('click',consentWithCookies);}return{consentWithCookies:consentWithCookies,hideCookieDialog:hideCookieDialog};})();
+    </script>
+
+    <!-- start of footer -->
+    <section class="footer-dark pt-75" style="background: black">
+      <div class="container">
+        <div class="row mb-0 py-4">
+          <div class="col-md-6 col-12">
+            <div class="text-light text-left mt-40">
+              <h3 class="text-white">GET OUR NEWSLETTER</h3>
+              <p class="mb-0">
+                Subscribe to our newsletter and stay updated on the latest
+                developments and special offers!
+              </p>
+              <form method="post" action="">
+                <input
+                  type="hidden"
+                  name="_token"
+                  value="HLxBI7cYHMhM7i4dPrxaza1nXRxNWIikQajr6Za7"
+                />
+                <input type="hidden" value="38" name="category_id" />
+                <input
+                  type="text"
+                  name="email"
+                  class="w-75"
+                  placeholder="Enter your email"
+                  required
+                />
+                <button
+                  class="newslettericon bg-danger text-white border-0 text-uppercase"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6 mt-md-0 mt-3">
+            <div class="text-light text-left mt-40">
+              <h3 class="text-white">CONNECT WITH US</h3>
+              <a
+                href="https://www.facebook.com/share/iY5iixRP2gbkyCw1/?mibextid=qi2Omg"
+                target="blank"
+                ><img src="./images/footer-items/facebook-circled--v1.png"
+              /></a>
+              <a href="https://twitter.com/umoja_radio" target="blank"
+                ><img src="./images/footer-items/twitter-circled--v1.png"
+              /></a>
+              <a
+                href="https://www.instagram.com/umoja_radio_?igsh=Ym96dXMyb2NkM254"
+                target="blank"
+                ><img src="./images/footer-items/instagram-new--v1.png"
+              /></a>
+              <a
+                href="https://youtube.com/@Umojaradio.?si=rwz0CRX4idV1oSpc"
+                target="blank"
+                ><img src="./images/footer-items/youtube-squared.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-4 bold-border-top pt-3">
+          <div class="col-12">
+            <h3 class="text-white">The UMOJA RADIO STUDIO</h3>
+            <ul class="nav-inline nav list-style-disc">
+              <li class="nav-item">
+                <a class="nav-link" href="https://twitter.com/umoja_radio"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Vacancies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Privacy Policy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Terms &amp; Conditions</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="bg bg-dark">
+          <div
+            class="d-flex flex-row justify-content-between container px-0 py-2"
+          >
+            <!--add horizontal line and copyright text along with clickable link-->
+            <hr />
+            <a href="https://wa.me/254790584792" class="copyright"
+              >Copyright @2024 - Made with ❤️ by Edduh</a
+            >
+
+            <!-- <div class="text-white">
+              <ul class="nav ml-auto">
+                <li class="nav-item">
+                  <a class="text-white" href=""
+                    ><img
+                      src="./images/footer-items/footer-logo.png"
+                      class="big-logo"
+                  /></a>
+                </li>
+              </ul>
+            </div> -->
+            <div class="p-2 d-flex align-items-center">
+              <a href="" target="_blank " class="text-white link"
+                >UMOJA RADIO STUDO</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a href="#" class="scroll-top btn-hover">
+      <i class="fa-solid fa-arrow-up-from-bracket">
+        <i class="lni lni-chevron-up"></i>
+      </i>
+    </a>
+    <!-- END OF FOOTER -->
+
+    <!-----------------JS----------------------->
+    <script>
+      //declare variable MenuItems which take ul having id "MenuItems"
+
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px"; //by default, we have set menu or dropdown menu height to 0px, means it is close by default
+
+      function menutoggle() {
+        //this is the function which we have called above in nav which works on small devices and users click on it
+        if (MenuItems.style.maxHeight == "0px") {
+          //when user click on it and if it is closed or its height is 0px, then it will open or it should have heigt of 200px upon clicking
+          MenuItems.style.maxHeight = "200px";
+        } //if user not clicked or it has already opened, then it will upon clicking again closed
+        else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+
+    <!----------JS for Single product detail-->
+    <!--we can write all script in above script, but we have write anothe script tag for simplicity-->
+    <script>
+      var ProductImg = document.getElementById("product-img"); //larger image
+      var SmallImg = document.getElementsByClassName("small-img"); //it returns list of 4 images having index 0,1,2,3 as we have 4 images with class name "small0-img"
+
+      SmallImg[0].onclick =
+        function () //when user click on first image or images at 0 index, it will display as ProdcutImg.src replace with clicked or SmallImg[0], so we get smallimg[0] in bigger form, similarly when click on smallimg[1], it will display in bigger picture and so on
+        {
+          ProductImg.src = SmallImg[0].src;
+        };
+
+      SmallImg[1].onclick = function () {
+        ProductImg.src = SmallImg[1].src;
+      };
+
+      SmallImg[2].onclick = function () {
+        ProductImg.src = SmallImg[2].src;
+      };
+
+      SmallImg[3].onclick = function () {
+        ProductImg.src = SmallImg[3].src;
+      };
+    </script>
+  </body>
+</html>
