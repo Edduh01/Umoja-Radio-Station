@@ -2194,7 +2194,7 @@ p {
 }
 
 body {
-  background-image: url(../images/1asd.jpg);
+  background-image: url(/images/1asd.jpg);
   background-attachment: fixed;
   background-position-y: center;
   background-position-x: center;
