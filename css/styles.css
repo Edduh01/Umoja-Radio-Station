@@ -95,6 +95,7 @@
 }
 
 body {
+  background: url(../images/1asd.jpg);
   font-family: var(--font-family);
   color: var(--black);
   font-size: 16px;
@@ -2194,7 +2195,7 @@ p {
 }
 
 body {
-  background-image: url(/images/1asd.jpg);
+  background-image: url(../images/1asd.jpg);
   background-attachment: fixed;
   background-position-y: center;
   background-position-x: center;
@@ -3388,7 +3389,9 @@ h3 {
   width:100%
 }
 
-
+.social-icons{
+  font-size: 45px;
+}
 
 
 
